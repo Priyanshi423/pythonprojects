@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+
 
 
 from tkinter import *
@@ -12,13 +12,7 @@ import re
 import requests
 
 
-# In[2]:
 
-
-{"base":"USD","date":"2020-08-14","time_last_updated":1597363443,"rates":{"USD":1,"AED":3.672071,"ARS":73.058986,"AUD":1.396361,"BGN":1.652604,"BRL":5.413012,"BSD":1,"CAD":1.322269,"CHF":0.910463,"CLP":792.496064,"CNY":6.943048,"COP":3774.714286,"CZK":22.091328,"DKK":6.297476,"DOP":58.243204,"EGP":15.923865,"EUR":0.845846,"FJD":2.138071,"GBP":0.764663,"GTQ":7.696767,"HKD":7.750564,"HRK":6.346117,"HUF":291.697353,"IDR":15009.438556,"ILS":3.404776,"INR":74.837786,"ISK":136.193434,"JPY":106.912652,"KRW":1184.312626,"KZT":419.412698,"MVR":15.35,"MXN":22.29295,"MYR":4.191841,"NOK":8.892578,"NZD":1.523962,"PAB":1,"PEN":3.568703,"PHP":48.836289,"PKR":167.587738,"PLN":3.719552,"PYG":7206.272727,"RON":4.087273,"RUB":73.520124,"SAR":3.750336,"SEK":8.683846,"SGD":1.371626,"THB":31.050404,"TRY":7.334269,"TWD":29.420613,"UAH":27.42876,"UYU":42.503485,"ZAR":17.436822}}
-
-
-# In[3]:
 
 
 class currencyconverter():
@@ -36,7 +30,7 @@ class currencyconverter():
             
 
 
-# In[4]:
+
 
 
 class currencyconverterUi(tk.Tk):
@@ -106,7 +100,7 @@ class currencyconverterUi(tk.Tk):
                                     
 
 
-# In[5]:
+
 
 
 if __name__ == '__main__':
